@@ -6,3 +6,9 @@ Instead of using codespaces I developed this locally with some small changes to 
 
 Design sketch:
 ![alt text](image.png)
+
+Check this for real world implementation: https://github.com/aaalexlit/faq-slack-bot
+
+# To Do
+
+[] Cache the responses
