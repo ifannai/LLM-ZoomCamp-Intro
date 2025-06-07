@@ -2,6 +2,19 @@
 
 [2024 edition youtube playlist](https://www.youtube.com/playlist?list=PL3MmuxUbc_hKiIVNf7DeEt_tGjypOYtKV)
 
+# What are we building?
+
+A RAG application using Open AI
+RAG - Retrieval Augmented Generation - is an application where we have a knowledge-base that we feed as context into an LLM. An LLM will then respond to queries/prompts about this specific knowledge base.
+
+In this project we will use Open AI's GPT with elasticsearch
+
+Steps:
+
+- install dependencies with `poetry install`, we need openai, elasticsearch, jupyter notebook
+- go to `platform.openai.com`, to create an API key for OpenAI and add it to the environment
+- run `jupyter notebook`
+
 # Simple RAG with Open AI
 
 - Jupyter notebook: [elastic RAG](elastic-rag.ipynb)
@@ -9,7 +22,7 @@
 Resources:
 
 - ZoomCamp [workshop](https://www.youtube.com/watch?v=q-p36Ak6YI8&list=PL3MmuxUbc_hKiIVNf7DeEt_tGjypOYtKV&index=2)
-- step by step guide in [this repo](https://github.com/alexeygrigorev/llm-rag-workshop)
+- [step by step guide](https://github.com/alexeygrigorev/llm-rag-workshop)
 
 Notes:
 
